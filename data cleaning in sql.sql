@@ -111,5 +111,6 @@ update layoffs_2
 set funds_raised = 'N/A'
 where funds_raised is null;
 
+-- final cleaned dataset
 select*
 from layoffs_2
